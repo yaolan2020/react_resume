@@ -1,0 +1,90 @@
+.pictab{
+    padding:0;
+    height: inherit;
+    position: relative;
+}
+.myul{
+    width: 100%;
+    height: inherit;
+    overflow: hidden;
+    position: relative;
+    background: #333;
+}
+.myul>li{
+    width: 340px;
+    height: 416px;
+    background-color: #fff;
+    position: absolute;
+    box-shadow: 0 0 15px black;
+    transform-style: preserve-3d;
+}
+.myul > li.active{
+    transform: rotateY(180deg);
+}
+.myul > li > .zm{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top:0;
+    transform: translateZ(1px);
+}
+.myul > li > .zm > img{
+    max-width:285px ;
+    max-height: 292px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.myul > li > .zm > .textNode{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 24px;
+    color:#4d544d;
+}
+.myul > li > .bm{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top:0;
+    transform:scaleX(-1) translateZ(-1px);
+    text-align: center;
+}
+.myul > li > .bm .textNode{
+    text-align: center;
+    color:#4d544d;
+    padding:15px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 38px;
+    text-indent:12px;
+}
+.myol{
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   bottom:180px;
+   z-index: 100;
+}
+.myol>li{
+    width: 14px;
+    height: 14px;
+    float:left;
+    background: #007d77;
+    margin: 0 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.myol>li.active{
+    transform:scale(1.5) rotateY(180deg);
+}
+.myol>li.bgActive{
+    transform:scale(1.5) rotateY(360deg);
+    background-color: yellow;
+}

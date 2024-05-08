@@ -1,0 +1,24 @@
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 100;
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.menu a{
+    padding: 0 20px;
+    align-items: center;
+    position: relative;
+    display: inline-flex;
+    height: 100%;
+    float: right;  
+    color: #fff; 
+}
+.menu a:first-child{
+    margin-right: 50px;
+}
+.menu a.active {
+    color:#fff;
+}

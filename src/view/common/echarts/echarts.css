@@ -1,0 +1,30 @@
+.echarts{
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top:200px;
+}
+#echartsjavascript{
+    top:10%;
+    left:45%;
+}
+#echartsbootstropt{
+    top:35%;
+    left:18%;
+}
+#echartsnodejs{
+    top:35%;
+    left:45%;
+}
+#echartscss{
+    top:35%;
+    right:12%;
+}
+#echartses6{
+    top:60%;
+    left: 32%;
+}
+#echartsreact{
+    top:60%;
+    right:23%;
+}

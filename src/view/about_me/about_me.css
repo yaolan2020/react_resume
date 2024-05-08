@@ -1,0 +1,66 @@
+.aboutme{
+    width: 100%;
+    height: auto;
+    background-color: rgba(255,255,255,0.6);
+    position: relative;
+    display: flex;
+    margin-bottom: 120px;
+}
+.aboutme_left{
+    position: relative;
+    padding-top: 120px;
+    flex:1
+}
+.aboutme_right{
+    position: relative;
+    margin-top: 120px;
+    flex:1
+}
+.aboutme_left .aboutme_left_content{
+    padding:0 0 20px 100px;
+}
+.aboutme_left .aboutme_left_content span{
+    display: block;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 35px;
+    font-weight: bold;
+    position: relative;
+}
+.aboutme_left .aboutme_left_content .content_title::before{
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: -15px;
+    width: 5px;
+    height: 15px;
+    background-color: red;
+
+}
+.aboutme_left .aboutme_left_content .content_title{
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+.aboutme_left .aboutme_left_content .content_content label{
+    text-indent:36px;
+    display: inline-block;
+}
+.aboutme_table{
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+.aboutme_table tr{
+    line-height: 35px;
+    border-bottom: 1px solid #ccc;
+}
+.aboutme_table tr td{
+   max-width: 200px;
+}
+
+.company_time{
+    display: inline-block;
+    min-width: 260px;
+    text-indent: 0;
+}
+

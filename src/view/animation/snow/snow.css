@@ -1,0 +1,97 @@
+.App {
+  position: absolute;
+  top: 50px;
+  bottom: 50px;
+  width: 70%;
+  left: 15%;
+  background-color: #fff;
+  z-index: 11;
+  border: 5px dotted rgb(224,224,224);
+  background-image: url('./../../images/white_wall.png')
+}
+#days {
+  font-size: 50px;
+  color: #FFF;
+  text-align: center;
+  letter-spacing: 3px;
+}
+/*
+* 红包雨动画样式
+*/
+.drop {
+	position: absolute;
+	top: 0;	
+	z-index: -1;
+  opacity: 0;
+}
+.snow {
+  width: 50px;
+  height: 57px;
+  z-index: 10;
+}
+.animate {
+	animation: falling 8.5s infinite ease-in;	
+}
+.redPackage{
+  width: 100%;
+  height: 100%;
+}
+@keyframes falling {
+	0% {top: 0; opacity: 1;}
+	100% {top: 1500px; opacity: 0}
+}
+
+/*
+* 内容样式
+*/
+.app_name{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color:rgb(238,0,39);
+  padding: 20px 0;
+}
+.menu_ul{
+  padding: 0 25px;
+}
+.menu_li{
+  display: inline-block;
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 25px;
+  color: #555;
+  width: 100%;
+}
+.menu_li::before{
+  content: '';
+  background-color: rgb(238,0,39);
+  width: 5px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 12px;
+  border-radius: 5px;
+}
+.menu_table{
+  font-size: 16px;
+  font-weight: normal;
+  width: 96%;
+  margin-left: 2%;
+}
+.menu_table_tr{
+  line-height: 38px;
+}
+.menu_table_tr>td{
+  
+}
+.menu_table_title{
+  width: 6%;
+  font-weight: bold;
+  min-width: 80px;
+}
+.menu_table_content{
+  width: 27%
+}
+.menu_nocontent{
+    font-size: 16px;
+    padding:15px 2%;
+}

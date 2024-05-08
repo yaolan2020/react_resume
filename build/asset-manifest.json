@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.02d25522.chunk.css",
+    "main.js": "/static/js/main.2eeb1486.chunk.js",
+    "main.js.map": "/static/js/main.2eeb1486.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.37974ebd.js",
+    "runtime-main.js.map": "/static/js/runtime-main.37974ebd.js.map",
+    "static/js/2.b35669b2.chunk.js": "/static/js/2.b35669b2.chunk.js",
+    "static/js/2.b35669b2.chunk.js.map": "/static/js/2.b35669b2.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.70e7b35a39c1339b80ba78fefe6266ed.js": "/precache-manifest.70e7b35a39c1339b80ba78fefe6266ed.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.02d25522.chunk.css.map": "/static/css/main.02d25522.chunk.css.map",
+    "static/media/baoshui.jpeg": "/static/media/baoshui.09717bfb.jpeg",
+    "static/media/main.css": "/static/media/beijing.aa95831e.jpg",
+    "static/media/dm_1.jpg": "/static/media/dm_1.12ed2345.jpg",
+    "static/media/dm_2.jpg": "/static/media/dm_2.e3395ab0.jpg",
+    "static/media/dm_3.png": "/static/media/dm_3.e3ad0d3f.png",
+    "static/media/dm_4.jpg": "/static/media/dm_4.b4f6c74b.jpg",
+    "static/media/dm_5.jpeg": "/static/media/dm_5.b806dcc0.jpeg",
+    "static/media/dm_6.jpg": "/static/media/dm_6.08f2d57c.jpg",
+    "static/media/dm_7.jpeg": "/static/media/dm_7.01f41c25.jpeg",
+    "static/media/dm_8.jpg": "/static/media/dm_8.fadf5f53.jpg",
+    "static/media/huanbao.png": "/static/media/huanbao.a477d8f1.png",
+    "static/media/my_weixin.jpeg": "/static/media/my_weixin.2c322228.jpeg",
+    "static/media/pxjck_search.png": "/static/media/pxjck_search.1804d8e3.png",
+    "static/media/pxjkc_list.png": "/static/media/pxjkc_list.fe3fb0d2.png",
+    "static/media/tanying_list.png": "/static/media/tanying_list.7e8efe11.png",
+    "static/media/ycgouche_detail.png": "/static/media/ycgouche_detail.b2f97c13.png",
+    "static/media/ycgouche_list.png": "/static/media/ycgouche_list.a3a91136.png",
+    "static/media/ycgouche_pc_detail.jpeg": "/static/media/ycgouche_pc_detail.24dbdbc1.jpeg",
+    "static/media/ycgouche_pc_list.png": "/static/media/ycgouche_pc_list.a4abf013.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37974ebd.js",
+    "static/js/2.b35669b2.chunk.js",
+    "static/css/main.02d25522.chunk.css",
+    "static/js/main.2eeb1486.chunk.js"
+  ]
+}
